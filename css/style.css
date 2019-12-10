@@ -1,0 +1,84 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lobster', cursive;
+}
+/*Header*/
+header{
+    background-image: url('../img/fondo\ maeda.png');
+    background-repeat: no-repeat;
+    background-position:top;
+    background-size: cover;
+    height: 100%;
+}
+header div{
+    padding-top: 14rem;
+    padding-bottom: 15rem;
+}
+header h1{
+    border: 0;
+}
+header hr{
+    background-color: black;
+    height: 1px;
+    width: 24%;
+}
+/*navbar*/
+.logo{
+    height: 40px;
+}
+/*sobre nosotros*/
+.sobrenosotros{
+    z-index: 2;
+    position: relative;
+}
+.contenido{
+    max-width: 1000px;
+    padding-left: 120px;
+}
+
+#sobrenosotros hr{
+    background-color: black;
+    height: 1px;
+    width: 10%;
+}
+/*parallax section*/
+.parallax{
+    min-height: 500px;
+    background: transparent;
+}
+/*footer*/
+.footer{
+    text-align: center;
+    background-color:rgb(43, 42, 42);
+    font-family: 'Gayathri', sans-serif;
+}
+
+.iconos a{
+    text-decoration: none;
+    color: white;
+}
+
+/*mediaquery*/
+@media (max-width: 575.98px) {
+    /*tamaño h1*/
+    .display-4{
+        font-size: 45px;
+    }
+    /*parrafos sobrenosotros*/
+    .contenido{
+        padding-left: 20px;
+    }
+    /*footer*/
+    .footer{
+        font-size: 12px;
+    }
+    /*formulario*/
+    .subtitulo{
+        font-size: 16px;
+    }
+}
