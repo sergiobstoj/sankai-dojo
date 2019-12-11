@@ -14,7 +14,7 @@
     <!--CSS Bootstrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <!--CSS JQuery UI-->        
+    <!--CSS JQuery UI-->
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <!--CSS propio-->
     <link rel="stylesheet" href="css/style.css">
@@ -26,6 +26,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
         <div class="container">
             <a class="navbar-brand" href="#"><img src="img/logo.png" alt="BujinkanLogo" id="logo" class="logo"></a>
+            <h1 class="text-center display-4">Sankai Dojo</h1>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -36,7 +37,13 @@
                         <a class="nav-link" href="#">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#sobrenosotros">Sobre nosotros</a>
+                        <a class="nav-link" href="#bujinkan">Bujinkan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobrenosotros">Sobre Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -44,17 +51,68 @@
     </nav>
     <!--Header-->
     <header>
-            <div class="container">
-                <h1 class="text-center display-4">Sankai Dojo</h1>
-                <hr>
-            </div>
+        <div class="container">
+
+        </div>
     </header>
+    <!--Curiosidades de cine-->
+    <section class="container mt-4 shadow-lg p-3 mb-5 bg-white rounded" id="bujinkan">
+        <div class="text-center py-4">
+            <h2>Bujinkan Budo Taijutsu</h2>
+            <hr>
+            <h4 class="bujinkan">Dojo de Arte Tradicional Japonés</h4>
+        </div>
+
+        <div class="container mazos">
+            <!--primer deck-->
+            <div class="card-deck pb-5">
+                <!--card-->
+                <div class="card" style="width: 18rem;">
+                    <img src="img/hatsumi-card.jpeg" class="card-img-top" alt="Hatsumi">
+                    <div class="card-body ">
+                        <h4 class="card-title">Soke Masaaki Hatsumi</h4>
+                        <p class="card-text">Masaaki Hatsumi (初見 良 昭 Hatsumi Masaaki, nacido el 2 de diciembre de 1931),
+                            anteriormente Yoshiaki Hatsumi, es el fundador de la Organización Bujinkan y es el actual
+                            Togakure-ryū Soke (Gran Maestro). Actualmente reside y enseña en Noda, Chiba, Japón.</p>
+                    </div>
+                </div>
+                <!--card-->
+                <div class="card mtop-5" style="width: 18rem;">
+                    <img src="img/logo1.jpeg" class="card-img-top" alt="bujinkan">
+                    <div class="card-body ">
+                        <h4 class="card-title">Bujinkan</h4>
+                        <p class="card-text">El Bujinkan (武神館) es una organización compuesta por 9 escuelas (ryūha) de
+                            artes marciales. El Bujinkan fue fundado por Masaaki Hatsumi (初見良昭 Hatsumi Masaaki?), que
+                            fue estudiante de Toshitsugu Takamatsu (高松寿嗣 Takamatsu Toshitsugu).</p>
+                        <p class="card-text">El método del Bujinkan se llama Bujinkan Budō Taijutsu (武神館武道体術?) y es una
+                            colección de nueve linajes marciales antiguos, conocidos como ryūha. Anteriormente se llamó
+                            Bujinkan Ninpô Taijutsu, pero es conocido también con el nombre genérico de Ninjutsu
+                            (técnicas y tácticas utilizadas por los Ninja). Tres de las nueve escuelas que componen la
+                            Bujinkan son de Ninjutsu. Las otras seis son de Bujutsu ("Arte de guerra") que comprenden
+                            Artes marciales tradicionales del Japón, practicadas antiguamente por los Samurái.</p>
+                    </div>
+                </div>
+                <!--card-->
+                <div class="card mtop-5" style="width: 18rem;">
+                    <img src="img/takamatsu-card.jpeg" class="card-img-top" alt="takamatsu">
+                    <div class="card-body ">
+                        <h4 class="card-title">Toshitsugu Takamatsu</h4>
+                        <p class="card-text">Toshitsugu Takamatsu (高 松 寿 嗣 Takamatsu Toshitsugu, 10 de marzo de 1889 - 2
+                            de abril de 1972) fue un artista marcial japonés y maestro del fundador de Bujinkan, Masaaki
+                            Hatsumi. Ha sido llamado "El último Shinobi" por el instructor de Bujinkan Wolfgang Ettig.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!--sobre nosotros-->
     <section id="sobrenosotros" class="parallax" data-parallax="scroll" data-z-index="1"
-        data-image-src="img/fondo3.png">
+        data-image-src="img/fondo2.jpeg">
         <div class="container text-center">
             <div class="pt-5 pb-4">
-                <h2 class="sobrenosotros">Sobre nosotros</h2>
+                <h2 class="sobrenosotros">Sobre Nosotros</h2>
                 <hr class="sobrenosotros">
             </div>
             <div class="row text-left pb-5 contenido">
@@ -81,11 +139,63 @@
             </div>
         </div>
     </section>
+    <!--Seccion parallax-->
+    <div class="parallax" data-parallax="scroll" data-z-index="1" data-image-src="img/nosotros.jpeg"></div>
 
+    <section class="container mt-4 shadow-lg p-3 mb-5 bg-white rounded" id="contacto">
+        <div class="text-center py-4">
+            <h1>Información de Contacto</h1>
+            <hr>
+            <h2 class="bujinkan">Sankai Dojo</h2>
+        </div>
+        <div class="card-deck pb-5">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Horarios</h4>
+                    <p class="card-text">
+                        Martes: 19:00 - 20:30 hrs.
+                    </p>
+                    <p class="card-text">
+                        Jueves: 19:00 - 20:30 hrs.
+                    </p>
+                    <p class="card-text">
+                        Sábado: 16:00 - 17:30 hrs.
+                    </p>
+                    <h4 class="card-title">Contacto</h4>
+                    <p class="card-text">
+                        Teléfono: +56 9 11 22 33 44
+                    </p>
+                    <p class="card-text">
+                        Instagram: @sankaidojochile
+                    </p>
+                    <h4 class="card-title">Sensei</h4>
+                    <p class="card-text">
+                        Shihan Roberto Ahumada
+                    </p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="img/senseiroberto.jpg" class="card-img-top" alt="senseiroberto" id="fotosensei">
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer py-4 text-white container-fluid">
+        <span>
+            <h6>Bujinkan Budo Taijutsu | Sankai Dojo | Chile </h6>
+        </span>
+        <span>
+            <h6>Avda. Matta 1474, Santiago – Sensei Roberto Ahumada</h6>
+        </span>
+        <div class="iconos">
+            <a href="https://www.instagram.com/sankaidojochile/" target="_blank"><i
+                    class="fab fa-instagram fa-2x pl-2"></i></a>
+        </div>
+    </footer>
     <!--JQuery-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <!--JQuery UI-->
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>  
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <!--Popper-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"

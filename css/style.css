@@ -5,13 +5,18 @@ html {
 body{
     margin: 0;
     padding: 0;
-    font-family: 'Lobster', cursive;
+    font-family: 'Times New Roman', Times, serif;
+}
+nav h1{
+    border: 0;
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
 }
 /*Header*/
 header{
-    background-image: url('../img/fondo\ maeda.png');
+    background-image: url('../img/fondo1.png');
     background-repeat: no-repeat;
-    background-position:top;
+    background-position:center;
     background-size: cover;
     height: 100%;
 }
@@ -19,26 +24,34 @@ header div{
     padding-top: 14rem;
     padding-bottom: 15rem;
 }
-header h1{
-    border: 0;
-}
-header hr{
-    background-color: black;
-    height: 1px;
-    width: 24%;
-}
 /*navbar*/
 .logo{
     height: 40px;
 }
-/*sobre nosotros*/
+/*cards*/
+.card-title{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+.card-text{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+/* sobrenosotros*/
 .sobrenosotros{
     z-index: 2;
     position: relative;
+    font-family: fantasy;
+    color: whitesmoke;
 }
 .contenido{
     max-width: 1000px;
     padding-left: 120px;
+}
+#sobrenosotros h2{
+    border: 0;
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
 }
 
 #sobrenosotros hr{
@@ -50,6 +63,11 @@ header hr{
 .parallax{
     min-height: 500px;
     background: transparent;
+}
+/*foto sensei*/
+#fotosensei{
+    height: 400px;
+    width: 100%;
 }
 /*footer*/
 .footer{
