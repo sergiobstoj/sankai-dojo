@@ -18,7 +18,8 @@ header{
     background-repeat: no-repeat;
     background-position:center;
     background-size: cover;
-    height: 100%;
+    height: 525px;
+    
 }
 header div{
     padding-top: 14rem;
@@ -30,18 +31,16 @@ header div{
 }
 /*cards*/
 .card-title{
-    font-family: 'Times New Roman', Times, serif;
     color: black;
 }
 .card-text{
-    font-family: 'Times New Roman', Times, serif;
     color: black;
 }
 /* sobrenosotros*/
 .sobrenosotros{
     z-index: 2;
     position: relative;
-    font-family: fantasy;
+    
     color: whitesmoke;
 }
 .contenido{
@@ -50,7 +49,7 @@ header div{
 }
 #sobrenosotros h2{
     border: 0;
-    font-family: 'Times New Roman', Times, serif;
+    
     color: whitesmoke;
 }
 
@@ -61,7 +60,7 @@ header div{
 }
 /*parallax section*/
 .parallax{
-    min-height: 500px;
+    min-height: 525px;
     background: transparent;
 }
 /*foto sensei*/
@@ -73,7 +72,7 @@ header div{
 .footer{
     text-align: center;
     background-color:rgb(43, 42, 42);
-    font-family: 'Gayathri', sans-serif;
+    
 }
 
 .iconos a{
