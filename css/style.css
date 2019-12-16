@@ -12,19 +12,6 @@ nav h1{
     font-family: 'Times New Roman', Times, serif;
     color: whitesmoke;
 }
-/*Header*/
-header{
-    background-image: url('../img/fondo1.png');
-    background-repeat: no-repeat;
-    background-position:center;
-    background-size: cover;
-    height: 525px;
-    
-}
-header div{
-    padding-top: 14rem;
-    padding-bottom: 15rem;
-}
 /*navbar*/
 .logo{
     height: 40px;
