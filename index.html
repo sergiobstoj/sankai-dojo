@@ -1,217 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="shortcut icon" type="image/x-icon" href="img/icono.ico" />
-    <!--Google Fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Gayathri&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
-    <!--FontAwesome-->
-    <script src="https://kit.fontawesome.com/0a6512b87a.js"></script>
-    <!--CSS Bootstrap-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <!--CSS JQuery UI-->
-    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-    <!--CSS propio-->
-    <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="js/wow.js">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="https://kit.fontawesome.com/94ae2e3ca8.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="img/logo-orange.png" />
+    
+    <title>Sankai Dojo</title>
 </head>
-
 <body>
-    <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-        <div class="container">
-            <a class="navbar-brand" href="#"><img src="img/logo.png" alt="BujinkanLogo" id="logo" class="logo"></a>
-            <h1 class="text-center display-4">Sankai Dojo</h1>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+  <section id="cover">
+  <div class="container">
+    <div class="row">
+        <nav class="navbar navbar-expand-md fixed-top navbar-light">
+            <button class="navbar-toggler navbar-toggler-right" type="button" 
+            data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" 
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
+            <a class="navbar-brand" href="#cover"><img src="img/logo-orange.png" alt="BujinkanLogo" id="logo" class="logo"> Sankai Dojo</a>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                  <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Inicio</a>
+                      <a class="nav-link" href="#cover">INICIO <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#bujinkan">Bujinkan</a>
+                      <a class="nav-link" href="#aboutUs">NOSOTROS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#sobrenosotros">Sobre Nosotros</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contacto">Contacto</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <!--Header-->
-    <header>
-        <!--Seccion parallax-->
-        <div class="parallax" data-parallax="scroll" data-z-index="1" data-image-src="img/fondo1.png"></div>
-    </header>
-    <!--Sobre la Bujinkan-->
-    <section class="container mt-4 shadow-lg p-3 mb-5 bg-white rounded" id="bujinkan">
-        <div class="text-center py-4">
-            <h2>Bujinkan Budo Taijutsu</h2>
-            <hr>
-            <h4 class="bujinkan">Dojo de Arte Tradicional Japonés</h4>
+                        <a class="nav-link" href="#contacto">ÚNETE</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#team">CONTACTO</a>
+                      </li>
+                  </ul>
+                </div>
+            </nav>
+          </div>
         </div>
 
-        <div class="container mazos">
-            <!--deck-->
-            <div class="card-deck pb-5">
-                <!--card-->
-                <div class="card" style="width: 18rem;">
-                    <img src="img/hatsumi-card.jpeg" class="card-img-top" alt="Hatsumi">
-                    <div class="card-body ">
-                        <h4 class="card-title"><b>Soke Masaaki Hatsumi</b></h4>
-                        <p class="card-text">Masaaki Hatsumi (nacido el 2 de diciembre de 1931),
-                            anteriormente Yoshiaki Hatsumi, es el fundador de la Organización Bujinkan y es el actual
-                            Togakure-ryū Soke (Gran Maestro). Actualmente reside y enseña en Noda, Chiba, Japón.</p>
-                    </div>
-                </div>
-                <!--card-->
-                <div class="card mtop-5" style="width: 18rem;">
-                    <img src="img/logo1.jpeg" class="card-img-top" alt="bujinkan">
-                    <div class="card-body ">
-                        <h4 class="card-title"><b>Bujinkan</b></h4>
-                        <p class="card-text">El Bujinkan (武神館) es una organización compuesta por 9 escuelas (ryūha) de
-                            artes marciales. El Bujinkan fue fundado por Masaaki Hatsumi, que
-                            fue estudiante de Toshitsugu Takamatsu.</p>
-                        <p class="card-text">El método del Bujinkan se llama Bujinkan Budō Taijutsu (武神館武道体術) y es una
-                            colección de nueve linajes marciales antiguos, conocidos como ryūha. Anteriormente se llamó
-                            Bujinkan Ninpô Taijutsu, pero es conocido también con el nombre genérico de Ninjutsu
-                            (técnicas y tácticas utilizadas por los Ninja). Tres de las nueve escuelas que componen la
-                            Bujinkan son de Ninjutsu. Las otras seis son de Bujutsu ("Arte de guerra") que comprenden
-                            Artes marciales tradicionales del Japón, practicadas antiguamente por los Samurái.</p>
-                    </div>
-                </div>
-                <!--card-->
-                <div class="card mtop-5" style="width: 18rem;">
-                    <img src="img/takamatsu-card.jpeg" class="card-img-top" alt="takamatsu">
-                    <div class="card-body ">
-                        <h4 class="card-title"><b>Toshitsugu Takamatsu</b></h4>
-                        <p class="card-text">Toshitsugu Takamatsu (10 de marzo de 1889 - 2
-                            de abril de 1972) fue un artista marcial japonés y maestro del fundador de Bujinkan, Masaaki
-                            Hatsumi. Ha sido llamado "El último Shinobi" por el instructor de Bujinkan Wolfgang Ettig.
-                        </p>
-                    </div>
-                </div>
+        <div class="row text-center ">
+            <div class="col-sm-12">
+              <h1>Bujinkan Budo Taijutsu</h1>
+            </div>
+            <div class="col-sm-12">
+                <h2>SANKAI DOJO</h2>
             </div>
         </div>
-    </section>
+        
+</section>
+<section id="aboutUs">
+  <div class="container">
+    <div class="aboutUs-top  text-center">
+      <h3>SOBRE NOSOTROS</h3>
+      <p>Conócenos</p>
+    </div>
+    <div class="aboutUs-content">
+      <div class="row">
+        <div class="col-lg-4 text-right wow rotateInDownLeft">
+          <h4>La Bujinkan</h4>
+          <p>
+            La Bujinkan es una organización compuesta por 9 escuelas (ryūha) de artes marciales. 
+            Fue fundada por Masaaki Hatsumi.
+          </p>
+        </div>
+        <div class="col-lg-4 text-center wow swing">
+          <img class="rounded-circle" src="img/logo1.jpeg" alt="study">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 offset-sm-4 text-center wow swing">
+          <img class="rounded-circle" src="img/hatsumi-card.jpeg" alt="natural">
+        </div>
+        <div class="col-lg-4 text-left wow rotateInDownRight">
+          <h4>Masaaki Hatsumi</h4>
+          <p>
+            Masaaki Hatsumi (Noda, 2 de diciembre de 1931) es un artista marcial y escritor japonés. 
+            Desde pequeño su padre lo instó a la práctica de las artes marciales 
+            practicando judo, karate estilo Shito Ryu, Daito Ryu Aikijujutsu (antecesor del Aikido), 
+            y hasta boxeo occidental entre otras, pero sin encontrar lo que buscaba. 
+            Solo se sintió satisfecho cuando comenzó a estudiar con el legendario maestro Toshitsugu Takamatsu a los 26 años de edad. 
+          </p>
+        </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 text-right wow rotateInDownLeft">
+            <h4>Toshitsugu Takamatsu</h4>
+            <p>
+            Toshitsugu Takamatsu (10 de marzo de 1889 - 2 de abril de 1972) fue un artista marcial japonés y maestro del fundador 
+            de Bujinkan, Masaaki Hatsumi. El instructor de Bujinkan Wolfgang Ettig lo ha llamado "El último Shinobi".
+            </p>
+          </div>
+          <div class="col-lg-4 text-center wow swing">
+            <img class="rounded-circle" src="img/takamatsu-card.jpeg" alt="mountain">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 offset-sm-4 text-center wow swing">
+            <img class="rounded-circle" src="img/senseiroberto.jpg" alt="study" style="margin-top: 15px;">
+          </div>
+          <div class="col-lg-4 text-left wow rotateInDownRight">
+            <h4>Shihan Roberto Ahumada</h4>
+            <p>
+            Maestro Sensei de Sankai Dojo. Posee el grado de Shishan, 13° grado.
+            </p>
+          </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <!--sobre nosotros-->
-    <section id="sobrenosotros" class="parallax" data-parallax="scroll" data-z-index="1"
-        data-image-src="img/fondo2.jpeg">
-        <div class="container text-center">
-            <div class="pt-5 pb-4">
-                <h2 class="sobrenosotros">Sobre Nosotros</h2>
-                <hr class="sobrenosotros">
-            </div>
-            <div class="row text-left pb-5 contenido">
-                <div class="col-md-6">
-                    <p class="sobrenosotros">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante
-                        nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus. Nullam fermentum turpis
-                        et dolor euismod consequat sed sed ante. Curabitur vel lacinia nisi. Sed mollis condimentum
-                        rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi lorem, mollis sit amet gravida in,
-                        finibus ut diam. Nunc cursus lacus ex, id interdum nibh tristique ac. Maecenas in mi blandit,
-                        euismod ipsum eu, lobortis nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-                        Mauris ultricies sem eu massa pellentesque, id interdum nibh luctus. Nam ac orci id neque
-                        posuere aliquam.</p>
-                </div>
-                <div class="col-md-6">
-                    <p class="sobrenosotros">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante
-                        nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus. Nullam fermentum turpis
-                        et dolor euismod consequat sed sed ante. Curabitur vel lacinia nisi. Sed mollis condimentum
-                        rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi lorem, mollis sit amet gravida in,
-                        finibus ut diam. Nunc cursus lacus ex, id interdum nibh tristique ac. Maecenas in mi blandit,
-                        euismod ipsum eu, lobortis nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-                        Mauris ultricies sem eu massa pellentesque, id interdum nibh luctus. Nam ac orci id neque
-                        posuere aliquam.</p>
-                </div>
-            </div>
+<section id="contacto" style="background: url('https://cdn.hipwallpaper.com/i/80/95/8qgTDC.jpg') center no-repeat; background-size: cover;">
+    <div class="container row">
+        <div class="col contact-text">
+            <p><h1>¿Tienes sed de Budo?</h1></p>
+            <p><h3>Envíanos un mensaje.</h3></p>
+            <p><h3>Nos pondremos en contacto a la brevedad contigo.</h3></p>
         </div>
-    </section>
-    <!--Seccion parallax-->
-    <div class="parallax" data-parallax="scroll" data-z-index="1" data-image-src="img/nosotros.jpeg"></div>
-    <!--Contacto-->
-    <section class="container mt-4 shadow-lg p-3 mb-5 bg-white rounded" id="contacto">
-        <div class="text-center py-4">
-            <h1>Información de Contacto</h1>
-            <hr>
-            <h2 class="bujinkan">Sankai Dojo</h2>
+        <div class="col form wow rotateInDownRight">
+            <form id="formulario">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Tu Nombre">
+                </div>
+                <div class="form-group">
+                  <input type="number" class="form-control" id="formGroupExampleInput2" placeholder="Tu Edad">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Tu Teléfono Contacto">
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" id="formGroupExampleInput2" placeholder="Tu correo electrónico">
+                </div>
+                <button type="submit" class="btn btn-primary mb-2">Enviar</button>
+              </form>
         </div>
-        <div class="card-deck pb-5">
-            <div class="card">
-                <div class="card-body">
-                    <h4 class="card-title"><b>Horarios</b></h4>
-                    <p class="card-text">
-                        Martes: 19:00 - 20:30 hrs.
-                    </p>
-                    <p class="card-text">
-                        Jueves: 19:00 - 20:30 hrs.
-                    </p>
-                    <p class="card-text">
-                        Sábado: 16:00 - 17:30 hrs.
-                    </p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-body">
-                    <h4 class="card-title"><b>Contacto</b></h4>
-                    <p class="card-text">
-                        Teléfono: +56 9 11 22 33 44
-                    </p>
-                    <p class="card-text">
-                        Instagram: @sankaidojochile
-                    </p>
-                </div>
-            </div>
-            <div class="card" style="width: 200px;">
-                <div class="card-body ">
-                    <h4 class="card-title"><b>Sensei</b></h4>
-                    <p class="card-text">
-                        Shihan Roberto Ahumada
-                    </p>
-                    <img src="img/senseiroberto.jpg" class="card-img-top" alt="senseiroberto" id="fotosensei">
-                </div>
-            </div>
-    </section>
-      
-    <!--Footer-->
+    </div>
+</section>
+
+
+<section id="team">
     <footer class="footer py-4 text-white container-fluid">
-        <span>
-            <h6>Bujinkan Budo Taijutsu | Sankai Dojo | Chile </h6>
-        </span>
-        <span>
-            <h6>Avda. Matta 1474, Santiago – Sensei Roberto Ahumada</h6>
-        </span>
-        <div class="iconos">
-            <a href="https://www.instagram.com/sankaidojochile/" target="_blank"><i
-                    class="fab fa-instagram fa-2x pl-2"></i></a>
+    <div class="container">
+    <div class="team-content">
+      <div class="row">
+        <div class="col-md-4 text-center wow bounceIn" data-wow-duration='2s'>
+          <h4>Horario</h4>
+          <ul class="social-icons">
+            <li class="social-icon">
+                <i class="far fa-calendar-alt"></i>
+            </li>
+          </ul>
+          <div><h6><b>Martes: </b>19:00 - 20:30</h6></div>
+          <div><h6><b>Jueves: </b>19:00 - 20:30</h6></div>
+          <div><h6><b>Sábado: </b>16:30 - 18:00</h6></div>
         </div>
-    </footer>
+        <div class="col-md-4 text-center wow bounceIn" data-wow-duration='2s'>
+          <img class="rounded-circle sensei" src="img/sankai.jpeg" alt="sensei">
+          <ul class="social-icons">
+            <li class="social-icon">
+                <i class="fa fa-instagram"></i>
+            </li>
+          </ul>
+          <h4>@SANKAIDOJOCHILE</h4>
+        </div>
+        <div class="col-md-4 text-center wow bounceIn" data-wow-duration='2s'>
+          <h4>Dirección</h4>
+          <ul class="social-icons">
+            <li class="social-icon">
+                <i class="fas fa-map-marked-alt"></i>
+            </li>
+          </ul>
+          <h6>Av. Manuel Antonio Matta 1474, Santiago, Región Metropolitana</h6>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+</section>
 
-    <!--JQuery-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <!--JQuery UI-->
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-    <!--Popper-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <!--JSBootstrap-->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-    <!--JS Parallax-->
+
+
+
+
+
+
+
     <script src="js/parallax.min.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/wow.js"></script>
+    <script>
+    new WOW().init();
+    </script>
+    <script>
+    
+    
+    </script>
 </body>
-
 </html>
