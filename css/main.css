@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lora:400,400i');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap');
 html,
 body,
 #cover{
@@ -11,7 +12,7 @@ body,
     color: rgb(255, 255, 255) !important;
     height: 30px;
     padding-bottom: 50px;
-    font-family: 'Segoe UI';
+    font-family: 'Cinzel', serif;
 }
 .logo{
     height: 50px;
