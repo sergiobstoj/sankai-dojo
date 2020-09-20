@@ -441,6 +441,9 @@ h2{
 
 /* Bootstrap media 2 */
 @media (max-width: 767px){
+    .sensei{
+        margin-left: 0%;
+    }
     .navbar-collapse{
         background: rgba(0,0,0,.35)
     }
