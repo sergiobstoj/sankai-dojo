@@ -16,13 +16,6 @@ body,
     padding-bottom: 50px;
     font-family: 'Cinzel', serif;
 }
-#cover{
-    background:url("https://i.pinimg.com/originals/5a/8a/11/5a8a116078e6760b7d35736221de317a.jpg") no-repeat center center fixed;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-}
 a.nav-link{
     font-family: 'Cinzel', sans-serif;
     font-size: 14px;
