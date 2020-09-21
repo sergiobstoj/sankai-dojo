@@ -441,6 +441,10 @@ h2{
 
 /* Bootstrap media 2 */
 @media (max-width: 767px){
+    .navbar-brand{
+        color: black !important;
+        text-shadow: 1px 1px white;
+    }
     .sensei{
         margin-left: 0%;
     }
